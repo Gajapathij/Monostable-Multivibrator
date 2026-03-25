@@ -11,6 +11,8 @@ To design and simulate a Monostable Multivibrator using NE555 in Proteus Design 
 •	CRO / Oscilloscope
 •	Connecting wires
 ## Circuit Diagram
+<img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/492baa7c-6c65-43a5-8c96-7a05ea1c7c2f" />
+
 Pin Connections:
 •	Pin 1 → Ground
 •	Pin 2 → Trigger (Connected to push button)
@@ -44,10 +46,18 @@ The NE555 operating in monostable mode acts as a one-shot pulse generator. It ha
 7.	Measure pulse width.
 ## Tabulation
 S.No	        R (kΩ)	          C (µF)	        Theoretical Pulse Width	            Practical Pulse Width
+S.No	R (kΩ)	C (µF)	Theoretical Pulse Width (s)	Practical Pulse Width (s)
+1	10	220	2.42	2.40
+2	10	100	1.10	1.08
+3	10	470	5.17	5.10
+4	22	220	5.32	5.30
+5	47	220	11.37	11.30
 ## Waveform
 •	Trigger → Short negative pulse
 •	Output → Single positive pulse
 •	Capacitor voltage → Exponential charging waveform
+<img width="1061" height="882" alt="image" src="https://github.com/user-attachments/assets/ba36af31-9689-47a6-ac41-d6d2499a73ea" />
+
 ## Result
 The Monostable Multivibrator using NE555 Timer IC was successfully designed and simulated in Proteus.
 A single output pulse of duration approximately 1.1 seconds was obtained.
